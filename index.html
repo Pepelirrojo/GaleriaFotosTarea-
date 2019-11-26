@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>Galeria de Fotitos</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <div>
-            <button>Anterior</button>
-        </div>
-        <div>
-            //Aqui va las Fotitos
-        </div>
-        <div>
-            <button>Siguiente</button>
-        </div>
-        <script src="funcktions.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Galeria de Fotitos</title>
+    <meta charset="utf-8">
+
+</head>
+
+<body onload="ValidarBtn()" >
+    <div>
+        <button id="Previous" onClick="changePhotoPlus('Previous')">Previous</button>
+    </div>
+    <img id="photo" src="gatitos/Gatito0.jpg">
+
+    <div>
+        <button id="Next" onClick="changePhotoPlus('Next')" >Next</button>
+    </div>
+    <script src="funcktions.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,49 @@
+button {
+    border-radius: 4px;
+    background-color: violet;
+    border: 1px;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:disabled{
+    background-color: grey ;
+}
+
+button:hover {
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+button:hover :after {
+    opacity: 1;
+    right: 0;
+}
+
+button:hover {
+    color: firebrick;
+    background-color: black;
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+}
