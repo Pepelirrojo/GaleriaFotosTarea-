@@ -1,6 +1,6 @@
 button {
     border-radius: 4px;
-    background-color: violet;
+    background-color: lightseagreen;
     border: 1px;
     color: black;
     text-align: center;
@@ -18,6 +18,13 @@ button {
 
 button:disabled{
     background-color: grey ;
+    color: tomato;
+}
+button:disabled:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: grey ;
+    color: tomato;
 }
 
 button:hover {
@@ -31,8 +38,8 @@ button:hover :after {
 }
 
 button:hover {
-    color: firebrick;
-    background-color: black;
+    color: mediumorchid;
+    background-color: goldenrod;
 }
 
 body {
